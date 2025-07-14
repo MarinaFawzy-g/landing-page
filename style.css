@@ -117,7 +117,11 @@ body {
 .square {
     width: 150px;
     height: 150px;
-    background-color: #3498db;
+    background-color:white ;
+    border: 2px solid #3498db;
+    
+   
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 
@@ -146,8 +150,8 @@ body {
 .disc2 {
     font-size: 18px;
     font-weight: bold;
-    margin-left: 600px;
-    text-align: center;
+    margin-right: auto ;
+    text-align: end;
     margin-top: 10px;
 
 }
@@ -193,7 +197,7 @@ body {
     margin-left: 200px;
 }
 
-footer {
+.footer {
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
