@@ -162,39 +162,45 @@ body {
     border: none;
     border-radius: 15px;
     padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.cta-text{
+
+  max-width: 300px;
 }
 
-.cta-text {
+.cta-text1 {
     color: #F9FAF8;
     font-weight: bold;
-    margin-left: 40px;
+    
     font-size: 24px;
     font-family: arial;
 }
-
-.cta-subtext {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 18px;
+.cta-text2 {
     color: #E5E7EB;
-    margin-left: 40px;
-    text-align: center;
-    justify-content: center;
-
+   
+    font-size: 18px;
+    font-family: arial;
 }
+
+
 
 .cta-button {
     background-color: #3882f6;
     display: inline-block;
     color: white;
     font-weight: bold;
-    padding: 10px 24px;
+    padding: 10px 26px;
     border: 2px solid white;
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: auto;
 }
 
 .footer {
