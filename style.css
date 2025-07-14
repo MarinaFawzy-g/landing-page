@@ -15,13 +15,13 @@ body{
     color: #F9FAF8;
     font-size: 24px;
     text-align: left;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 .left-links {
   list-style: none;        
   display: flex;
   gap: 10px;
-  margin-left: 350px;
+  margin-left: 500px;
 
 }
 
@@ -39,7 +39,7 @@ body{
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
-    margin-left: 250px;
+    margin-left: 150px;
     padding-right: 700px;
     margin-bottom: 0;
     font-family: Roboto;
@@ -47,7 +47,7 @@ body{
 .subtitle{
     color: #E5E7EB;
     font-size: 18px;
-    margin-left: 250px;
+    margin-left: 150px;
     padding-right: 700px;
     margin-top: 0;
     font-family: Roboto;
@@ -60,17 +60,7 @@ body{
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 250px;
-}
-
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: #3498db; 
-  display: flex;
-  
-    margin-right: 10px;
-  
+  margin-left: 150px;
 }
 
 .title2{
@@ -111,21 +101,69 @@ body{
 }
 .container3{
     background-color: #E5E7EB;
-padding: 200px;
+padding: 100px;
 }
  .disc1{
     font-style: italic;
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
     margin-left: 60px;
     text-align: center;
+    margin-right: 170px;
+    font-family: arial;
     
 }
 .disc2{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     margin-left: 600px;
     text-align: center;
-    font-family: Roboto;
+    margin-top: 10px;
 
 }
+.cta-container{
+    background-color: #3882f6;
+    margin: 100px 150px;
+    border: none;
+  border-radius: 15px;
+  padding: 40px 60px;
+}
+.cta-text{
+    color: #F9FAF8;
+    font-weight: bold ;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: arial;
+}
+.cta-subtext {
+  display: inline-flex; 
+  align-items: center; 
+  gap: 5px; 
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-left: 40px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.cta-button {
+  background-color: #3882f6; 
+  display: inline-block;
+  color: white; 
+  font-weight: bold; 
+  padding: 10px 24px; 
+  border: 2px solid white; 
+  border-radius: 10px; 
+  font-size: 16px;
+  cursor: pointer;
+ margin-left: 200px;
+}
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+   padding: 40px;
+   font-size: 18px;
+}
+
